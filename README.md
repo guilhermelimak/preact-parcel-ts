@@ -5,4 +5,9 @@ Simple boilerplate for preact projects using typescript and emotion, using plop 
 ## Usage
 
 Clone the repo without history
-`$ git clone --depth 1 https://github.com/guilhermelimak/preact-parcel-ts.git`
+
+`$ git clone --depth 1 https://github.com/guilhermelimak/preact-parcel-ts.git ${repo-name}`
+
+`$ cd ${repo-name} `
+
+`$ rm -rf .git && git init `
