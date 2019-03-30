@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "format": "prettier --write ./src/**/*.{js,ts,tsx}",
+    "generate": "plop"
+  },
+  "dependencies": {
+    "binary-extensions": "^1.13.1",
+    "emotion": "^10.0.9",
+    "json5": "^2.1.0",
+    "plop": "^2.3.0",
+    "preact": "^8.4.2",
+    "preact-compat": "^3.18.4",
+    "preact-emotion": "^9.2.12",
+    "prettier": "^1.16.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-preact": "^1.1.0",
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.4.1"
+  }
+}

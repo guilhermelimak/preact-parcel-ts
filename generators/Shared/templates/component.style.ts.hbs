@@ -1,0 +1,5 @@
+import styled from 'preact-emotion'
+
+export const Container = styled('div')({
+  display: 'flex'
+})
